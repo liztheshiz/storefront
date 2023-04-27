@@ -12,7 +12,7 @@ First, make sure Django is installed globally or in a virtual environment. To ru
 
 Then copy this address and run:
 
-`source [address]'
+`source [address]`
 
 Once you are running in the correct environment, navigate to the project folder and type the following command to start the dev server with all the correct configuration for this project:
 
