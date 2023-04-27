@@ -6,10 +6,14 @@ This VERY simple app was made following the Programming with Mosh tutorial [Pyth
 
 ## Dev instructions
 
-This project is configured to be running in a particular virtual environment. 
+First, make sure Django is installed globally or in a virtual environment. To run from virtual environment, first find its address by running:
 
-[TODO: instructions here]
+`pipenv --venv`
 
-Then, type the following command to start the dev server:
+Then copy this address and run:
+
+`source [address]'
+
+Once you are running in the correct environment, navigate to the project folder and type the following command to start the dev server with all the correct configuration for this project:
 
 `python manage.py runserver 9000`
